@@ -271,12 +271,18 @@ Both Simple and Folded Validation Techniques are Used.
 
 Evaluation
 
-Plot all model results
+Logged Target Varibles Moedl Alreays Performance better than non-logged price varibales.
 
-The best model is:
-Ridge with Polynomial
+Visual Plots: Residuals QQ Plots and Actual and Pedicted Plots
+Statistic Measures: MSE and R2 
+and Residuals and Actual and Predicted Plots as I am more interested in penalizing large errors in my model in order for my metric to reflect the true accuracy of my model. For this search I tried using a logarithmic and non-logarithmic target variable and obtained the following results:
+
+But I do have hesitations on if I have overfitting the model.
 
 
+
+My best model is:
+Ridge with Polynomial with Logged Price Target Varibles. 
 
 
 Understand the coefficent, and importance Feature analysis 
@@ -290,5 +296,5 @@ Understand the coefficent, and importance Feature analysis
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1aefdce5-67ac-4760-ad5d-7dca60659597) 
 
 
-
+In the search for weights for each of the characteristics I found that the year, model, odometer, transmission and cylinders of the vehicle have a very large influence on the prediction of the values, while the color, size and condition are not so decisive when calculating the price of the vehicles. In addition, we can see that the coefficients of a model with one of the best scores (Ridge with Polynomial) have marked extremes where the year and model and the combination of year-odometer and year-cylinders predominate, giving us an indication of the weight that these characteristics have at the time of predicting the price.
 
