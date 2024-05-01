@@ -62,15 +62,26 @@ and implement dynamic pricing strategies to maximize profitability.
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
   
   1.4 Immediate Actions and Insights:
-  ~ Drop 'VIN': High proportion of missing values and irrelevant for predicting car prices. Concerns about data integrity prompt careful handling of missing data and preprocessing.
-  ~ Drop 'Size': Removed due to over 70% missing values, suggesting limited utility for the model.
-  ~ Drop 'Region' and 'State': Excluded due to high cardinality and lack of demand and supply data by region, which limits their predictive value.
-  ~ Drop 'id': Irrelevence
-  ~ Focus on Key Features: Emphasis on more critical factors like Manufacturer and Model for further exploratory analysis, as they significantly influence second-hand car prices.
   
-2. Inital EDA Insights or Actions
+  ~ Drop 'VIN': High proportion of missing values and irrelevant for predicting car 
+  prices. Concerns about data integrity prompt careful handling of missing data and 
+  preprocessing. 
+  
+  ~ Drop 'Size': Removed due to over 70% missing values, suggesting limited utility
+  for the model. 
+  
+  ~ Drop 'Region' and 'State': Excluded due to high cardinality and lack of demand and 
+  supply data by region, which limits their predictive value. 
+  
+  ~ Drop 'id': Irrelevence 
+  
+  ~ Focus on Key Features: Emphasis on more critical factors like Manufacturer and 
+  Model for further exploratory analysis, as they significantly influence second-hand 
+  car prices.
+  
+2. Inital EDA Insights Including Profiling Analysis or Data Preparation Actions
    
-   2.1 High Cardinality
+   2.1 High Cardinality - Regroup Key Relevent Feature Such as Manufacturer
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png)
     
    2.2 Imbalance in Categoircal Values
@@ -80,10 +91,12 @@ and implement dynamic pricing strategies to maximize profitability.
    
    2.3 Incorrect Feature Type - Convert Cylinder Into Numerical Varible
 
-   2.4 Car Condition Can be coded into as a Ordinary Numberic feature
+   2.4 Car Condition Can be coded into as a Ordinarical Numberic feature
 
-   2.5 Remove Zero Pricing Cars and Cars with Savaged Conditions   
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png)
+   2.5 Remove Zero Pricing Cars and Cars with Savaged and other abnormal car
+   Conditions   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car- Prediction/main/Image/PriceOutlier.png)
+   
     
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png)
     
