@@ -13,10 +13,12 @@ DATA: Refer to the vehicles.zip file available in the repository
 Outline: Project Summary available in the repository 
 https://github.com/Sandysmile/Car-Prediction/blob/main/Project%20Outline.pdf 
 
-Detailed Analysis: Please refer to the Jupyter Notebook provided link blow
+Detailed Analysis: Please refer to the Jupyter Notebook provided link below 
+
 https://github.com/Sandysmile/Car-Prediction/blob/main/Car%20Price%20Prediction%20Application%20Project.ipynb 
 
-Panda Profiling Analysis: https://github.com/Sandysmile/Car-Prediction/blob/main/output.html 
+Panda Profiling Analysis: 
+https://github.com/Sandysmile/Car-Prediction/blob/main/output.html 
 
 
 # Business Understanding/Goals
