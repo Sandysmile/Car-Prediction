@@ -88,7 +88,8 @@ Take Fuel and Car Condition For Example
     
 
 
-13. Distribution Skewness 
+13. Log price to improve central tendency
+    
   
    
 Numerical
