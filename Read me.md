@@ -32,10 +32,24 @@ Insights from predictive models enable car dealerships to tailor inventory and m
 
 
 
-Data Overview:
+Data Understanding
+
+# Data Structure 
 
  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png).
  
+# Data Quality Check 
+
+1. Check Missing Values
+
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/MissingValues.png). 
+  
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissingValues.png). 
+  
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
+  
+3. 
+
 Feature Missing Values Chart with Report Profiling image
 
 Numerical
