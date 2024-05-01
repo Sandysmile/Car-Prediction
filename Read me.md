@@ -283,7 +283,7 @@ Both Simple and Folded Validation Techniques are Used.
 
 
 
-Evaluation
+# Evaluation
 
 Logged Target Varibles Moedl Alreays Performance better than non-logged price varibales.
 
@@ -291,11 +291,11 @@ Visual Plots: Residuals QQ Plots and Actual and Pedicted Plots
 Statistic Measures: MSE and R2 
 and Residuals and Actual and Predicted Plots as I am more interested in penalizing large errors in my model in order for my metric to reflect the true accuracy of my model. For this search I tried using a logarithmic and non-logarithmic target variable and obtained the following results:
 
-But I do have hesitations on if I have overfitting the model.
+But I do have hesitations on if I overfitted the model.
 
 
 
-My best model is:
+My best model so far is:
 Ridge with Polynomial with Logged Price Target Varibles. 
 
 
@@ -310,6 +310,48 @@ Understand the coefficent, and importance Feature analysis
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1aefdce5-67ac-4760-ad5d-7dca60659597) 
 
 
+Business deploy
+I found that manufactuer, year, odometer, fuel, drive of  the vehicle largely decide a car's price, while the color, # of cylinders and condition are irrelevent.
 
-In the search for weights for each of the characteristics I found that the year, model, odometer, transmission and cylinders of the vehicle have a very large influence on the prediction of the values, while the color, size and condition are not so decisive when calculating the price of the vehicles. In addition, we can see that the coefficients of a model with one of the best scores (Ridge with Polynomial) have marked extremes where the year and model and the combination of year-odometer and year-cylinders predominate, giving us an indication of the weight that these characteristics have at the time of predicting the price.
+Specifically, the analysis have the following business applicaiton
+
+1.	Model Performance: Polynomial features significantly enhance model accuracy. Log transformations improve data distribution for more reliable predictions.
+   Non-log
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/e4257d5c-5b11-40e3-a182-c65c9ed914ad)
+  	
+  	Log
+  	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0ef11468-0c70-416f-b63f-72839a6c41f8)
+  	
+
+
+3.	Key Influencers: Manufacturer, year, vehicle type, odometer, and drive are pivotal in pricing.
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/000a9faa-9db0-43fd-8874-e11d8222f976)
+  	
+  	
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/6f372231-d930-472a-9b68-82a5e9d5fc05) 
+
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/309e17a5-3ba3-48c2-900d-7972bd427fe1) 
+   
+   
+5.	Inventory Trends: Trucks and pickups maintain premium market positioning. while Toyota and sedon  
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a69b221e-462b-4020-a44b-bd9c337e9275)
+  	
+  	
+  	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/413c55a5-f624-40cd-8792-a7901739006f)
+  	
+  	
+  	
+7.	Consumer Preferences: High-end vehicles are favored over popular lower-end models.
+	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ab0ec3aa-b730-49e5-ac67-987e98537dbf)
+
+  
+
+
+9.	Risk Management: Newer American vehicles with four-wheel drive are less risky. Japanese and Korean brands are preferred for their value retention in the secondary market.
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0f1d6b50-8325-443c-a6fa-cd365abd02fe) 
+    
+11.	Surprisingly, car conditions and the number of cylinders have shown to be insignificant factors in the dataset. Is it largely because the condition of the car positively correlates with its year and negatively with the odometer readings? Additionally, the 
+   imputation of a significant portion of missing data (over 34%) for cylinders and car condition may explain their limited significance to some extent
+
+
 
