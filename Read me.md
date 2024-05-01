@@ -109,7 +109,8 @@ and implement dynamic pricing strategies to maximize profitability.
    Their missing values will be imputated using their median values after splitting the dataset into train and test dataset to avoid data leakage.
    
    2.8 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
-   
+   before 
+
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/yeardistribution.png)
