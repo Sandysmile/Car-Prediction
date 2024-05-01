@@ -126,22 +126,43 @@ and implement dynamic pricing strategies to maximize profitability.
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
 
    
-3. Final Cleaned Data Overview and Plots for Insights
+3. Final Cleaned Data Overview and Selected Plots for Insights
 
-   3.1 Number of Cylinders and Price
+   3.1 Number of Cylinders Distribution (Before Imputation)
 
 
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cylinderswith%20Price.png)
    
+   
+   3.2 Car Condition Numerical Value Distribution (Before Imputation)
+   
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png)
    
+   3.3 Median Prices and Counts by Year with Curve
 
-   3.2 Number of Cylinders and Price
+    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearMedianPriceCounts.png)
+
    
+   3.4 Counts and Median Prices by Number of Cylinders
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithMedianPrice.png)
+  
+   3.5 Counts and Median Prices by Car Condition
+
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ConditionMedianPrice.png)
+
+   3.6 Counts and Median Prices by Manufacturer Group
+
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerwithMedianPrice.png)
+
+   3.7 Counts and Median Prices by PaintColor
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PaintColorwithMedianPrice.png)
+
    
   
-   
 
+   
 
 Modeling (4) 
 
