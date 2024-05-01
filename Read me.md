@@ -55,7 +55,9 @@ Data Understanding
   
 
 2. High Cardinality
-  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png)
+   
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png) 
+  
    
 Numerical
 
