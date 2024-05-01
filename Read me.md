@@ -49,53 +49,51 @@ and implement dynamic pricing strategies to maximize profitability.
 
 1.Check Missing Values in Three Ways
    
-  1.1 Percentage of Missing Values for Each Variable Statistics
+  1.1 Variable Statistics for Percentage of Missing Values
 
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/MissingValues.png). 
 
-  1.2 Density of Missing Values Comparision (Panda Profiling Analysis)
+  1.2 Density of Missing Values Comparision (Refer to Panda Profiling Analysis)
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissing%20Values.png). 
 
-  1.3 Nulllity Correlations among varibles (Panda Profiling Analysis)
+  1.3 Nullity Correlations among varibles (Refer to Panda Profiling Analysis)
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
   
-  Please Note:
-  30% of VIN numbers are missing. which points to potential issues in data capture, data quality, or the application of privacy filters. This significant gap necessitates extensive data cleanup or imputation, 
-  which could potentially skew the insights derived from predictive models
-
-  Over 70% of Size variable values are missing. Drop the Size varible for sure. 
+  1.4 Immediate Actions and Insights:
+  ~ Drop 'VIN': High proportion of missing values and irrelevant for predicting car prices. Concerns about data integrity prompt careful handling of missing data and preprocessing.
+  ~ Drop 'Size': Removed due to over 70% missing values, suggesting limited utility for the model.
+  ~ Drop 'Region' and 'State': Excluded due to high cardinality and lack of demand and supply data by region, which limits their predictive value.
+  ~ Drop 'id': Irrelevence
+  ~ Focus on Key Features: Emphasis on more critical factors like Manufacturer and Model for further exploratory analysis, as they significantly influence second-hand car prices.
   
-2. High Cardinality
+2. Inital EDA Insights or Actions
    
-  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png) 
-
-
-3. Imbalance in Categoircal Values
+   2.1 High Cardinality
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png)
+    
+   2.2 Imbalance in Categoircal Values
+   Take Fuel and Car Condition For Example 
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarCondition.png)
    
-Take Fuel and Car Condition For Example 
+   2.3 Incorrect Feature Type - Convert Cylinder Into Numerical Varible
 
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarCondition.png) 
-  
-7. Incorrect Feature Type - Convert Cylinder Into Numerical Varible
-8. Code Car Condition into Ordinary Numbers 
+   2.4 Car Condition Can be coded into as a Ordinary Numberic feature
 
-
-9. Remove Zero Pricing Cars and Cars with Savaged Conditions
+   2.5 Remove Zero Pricing Cars and Cars with Savaged Conditions   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png)
     
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png) 
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png) 
- 
-
-11. Remove Numerical Outliers Using Quantile Approach
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
-
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png)
     
+   2.6 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
 
-
-13. Log price to improve central tendency
+   2.7. Log price to improve central tendency
+   
+   
     
   
    
