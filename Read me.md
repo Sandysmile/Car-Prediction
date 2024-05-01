@@ -79,7 +79,7 @@ and implement dynamic pricing strategies to maximize profitability.
   Model for further exploratory analysis, as they significantly influence second-hand 
   car prices.
   
-2. Inital EDA Insights Including Profiling Analysis or Data Preparation Actions
+ # Data Preparation: EDA and Profiling Analysis help me prepare Data for modelling,
    
    2.1 High Cardinality - Regroup Key Relevent Feature Such as Manufacturer
    
@@ -118,7 +118,6 @@ and implement dynamic pricing strategies to maximize profitability.
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearswithCurve.png)
    
 
-
    2.7. Log price to improve central tendency
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedPrice.png)
@@ -131,46 +130,82 @@ and implement dynamic pricing strategies to maximize profitability.
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Correlations.png)
    
    
-4. Final Cleaned Data Overview and Selected Plots for Business Insights
+   2.9 Final Cleaned Data Overview and Selected Plots for Business Insights
 
-   3.1 Number of Cylinders Distribution (Before Imputation)
+   2.9.1 Number of Cylinders Distribution (Before Imputation)
 
 
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cylinderswith%20Price.png)
    
    
-   3.2 Car Condition Numerical Value Distribution (Before Imputation)
+   2.9.2 Car Condition Numerical Value Distribution (Before Imputation)
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png)
    
-   3.3 Median Prices and Counts by Year with Curve
+   2.9.3 Median Prices and Counts by Year with Curve
 
-    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearMedianPriceCounts.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearMedianPriceCounts.png)
 
    
-   3.4 Counts and Median Prices by Number of Cylinders
+   2.9.4 Counts and Median Prices by Number of Cylinders
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithMedianPrice.png)
   
-   3.5 Counts and Median Prices by Car Condition
+   2.9.5 Counts and Median Prices by Car Condition
 
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ConditionMedianPrice.png)
 
-   3.6 Counts and Median Prices by Manufacturer Group
+   2.9.6 Counts and Median Prices by Manufacturer Group
 
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerGroupwithMedianPrice.png)
 
-   3.7 Counts and Median Prices by PaintColor
+   2.9.7 Counts and Median Prices by PaintColor
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PaintColorwithMedianPrice.png)
 
 
+# Modeling
+
+Pre-Modelling Work
+  3.1 Spliting Data (80% of Train Data, 20% as Test Data)
+
+  3.2 Impute Missing Values for Condition_Numeric and Cylinder_Numeric using Their respective Median Value. 
+
+  3.4 Apply Log Transformation for Odometer
+
+  3.5 Check Missing Value Again
+
+  3.6 Log target variables for both train and test dataset because privous analysis of logged price are more normally distributed.
+
+Modelling Techniques:
+
+Using GridSearch to Search the Best Model and Try both price and logged price as the Target varible. 
+
+1) Linear Regression with Polynomial
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ae06b24b-3b68-4c50-860d-b560978fadcc)
+
+Best Polynomial Degree: 4
+Best Mean Squared Error: 28490846.06812954
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84)
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/4a495b02-3e6a-4d3e-ad3d-716c70a7f4df) 
+
+
+
+2) Ridge
    
-  
+4) Ridge with Polynomial
+
+Logged Price Targeted Varibles
+R-squared for Training Data: 0.8145
+R-squared for Testing Data: 0.8128
+
+Both Simple and Folded Validation Techniques are Used. 
+
 
    
 
-Modeling (4) 
 
 Simple Linear Regression with Polynomial
 Ridge 
