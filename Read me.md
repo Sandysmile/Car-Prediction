@@ -126,7 +126,16 @@ and implement dynamic pricing strategies to maximize profitability.
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
 
    
-4. Final Cleaned Data Overview and Plots for Insights
+3. Final Cleaned Data Overview and Plots for Insights
+
+   3.1 Number of Cylinders and Price
+
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithPrice.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png)
+   
+
+   3.2 Number of Cylinders and Price
    
    
   
