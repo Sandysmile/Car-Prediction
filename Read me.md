@@ -83,21 +83,26 @@ and implement dynamic pricing strategies to maximize profitability.
    
    2.1 High Cardinality - Regroup Key Relevent Feature Such as Manufacturer
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png) 
+   
     
    2.2 Imbalance in Categoircal Values
    Take Fuel and Car Condition For Example 
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarCondition.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarCondition.png) 
+   
    
    2.3 Incorrect Feature Type - Convert Cylinder Into Numerical Varible
 
    2.4 Car Condition Can be coded into as a Ordinarical Numberic feature
 
    2.5 Remove Zero Pricing Cars and Cars with Savaged and other abnormal car Conditions
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png) 
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png) 
+   
       
   
    2.6 drop all missing values from drive, type, and paint_color
@@ -111,23 +116,29 @@ and implement dynamic pricing strategies to maximize profitability.
    2.8 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
    before 
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png) 
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/yeardistribution.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/yeardistribution.png) 
+   
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearswithCurve.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearswithCurve.png) 
+   
    
 
    2.7. Log price to improve central tendency
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedPrice.png) 
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png) 
+   
 
 
    2.8. Correlation among Numerical Variables
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Correlations.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Correlations.png) 
+   
    
    
    2.9 Final Cleaned Data Overview and Selected Plots for Business Insights
@@ -135,33 +146,40 @@ and implement dynamic pricing strategies to maximize profitability.
    2.9.1 Number of Cylinders Distribution (Before Imputation)
 
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cylinderswith%20Price.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cylinderswith%20Price.png) 
+   
    
    
    2.9.2 Car Condition Numerical Value Distribution (Before Imputation)
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png) 
+   
    
    2.9.3 Median Prices and Counts by Year with Curve
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearMedianPriceCounts.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearMedianPriceCounts.png) 
+   
 
    
    2.9.4 Counts and Median Prices by Number of Cylinders
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithMedianPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithMedianPrice.png) 
+   
   
    2.9.5 Counts and Median Prices by Car Condition
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ConditionMedianPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ConditionMedianPrice.png) 
+   
 
    2.9.6 Counts and Median Prices by Manufacturer Group
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerGroupwithMedianPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerGroupwithMedianPrice.png) 
+   
 
    2.9.7 Counts and Median Prices by PaintColor
    
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PaintColorwithMedianPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PaintColorwithMedianPrice.png) 
+   
 
 
 # Modeling
@@ -182,20 +200,66 @@ Modelling Techniques:
 Using GridSearch to Search the Best Model and Try both price and logged price as the Target varible. 
 
 1) Linear Regression with Polynomial
-![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ae06b24b-3b68-4c50-860d-b560978fadcc)
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84)
+
 
 Best Polynomial Degree: 4
 Best Mean Squared Error: 28490846.06812954
 
-![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84)
-
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/4a495b02-3e6a-4d3e-ad3d-716c70a7f4df) 
 
 
+Logged Target Variable
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/34b5fb11-ccf2-457f-87ae-66382596220e) 
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/5c54543c-210c-45aa-9b64-e8738a10a899) 
+
+
+R-squared for Training Data: 0.7823
+R-squared for Testing Data: 0.7805
 
 2) Ridge
-   
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/f9b503f5-56ee-4060-a506-a5a34bead505)
+
+
+MAE: Training= 3339.4714, Test= 3339.4714 
+MSE: Training= 34936293.0479, Test= 34570674.9742 
+Optimal alpha: 8.286 
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b5832905-3602-4369-946e-61b8bb0987fb) 
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a4693e10-b183-4fe7-ac77-34a6491188de) 
+
+
+R-squared for Training Data: 0.7670 
+R-squared for Testing Data: 0.7646 
+
+
 4) Ridge with Polynomial
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/9b859b04-c2ef-4209-b582-d1a4d473c7e3)
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/fca90dc1-0a33-451a-83dd-9f742f70b340) 
+
+
+Best Alpha: 0.00042919342601287783
+Best Polynomial Degree: 2
+Training MAE: 4343.966853167321
+Training MSE: 34043273.72143958
+Test MAE: 4325.153891514682
+Test MSE: 33782508.83641666
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/99290015-8020-4b1c-88af-ffd94e37c58c) 
+
+
+Best Alpha: 0.49417133613238384
+Training MAE: 0.23050398477538958
+Training MSE: 0.09573746155009595
+Test MAE: 0.2321125678283298
+Test MSE: 0.09641483333824302
 
 Logged Price Targeted Varibles
 R-squared for Training Data: 0.8145
@@ -204,13 +268,6 @@ R-squared for Testing Data: 0.8128
 Both Simple and Folded Validation Techniques are Used. 
 
 
-   
-
-
-Simple Linear Regression with Polynomial
-Ridge 
-Ridge with Polynomial
-Lasso, SequentialFeatureSelector with Polynomial
 
 Evaluation
 
@@ -218,7 +275,20 @@ Plot all model results
 
 The best model is:
 Ridge with Polynomial
-Understand the coefficent, and importance. 
 
 
-Feature analysis 
+
+
+Understand the coefficent, and importance Feature analysis 
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1cb9bcbe-7e66-4ed3-af4e-c53d5c988182) 
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/e1b389ca-fe33-4b42-8aba-cb359937fbcf) 
+
+
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1aefdce5-67ac-4760-ad5d-7dca60659597) 
+
+
+
+
