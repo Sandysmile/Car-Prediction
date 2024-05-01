@@ -78,8 +78,8 @@ Take Fuel and Car Condition For Example
 
 9. Remove Zero Pricing Cars and Cars with Savaged Conditions
     
- ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png) 
- ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png) 
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png) 
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png) 
  
 
 11. Remove Numerical Outliers Using Quantile Approach
