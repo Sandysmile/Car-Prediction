@@ -5,7 +5,7 @@ Overveiw:
 In the application, I explored a car dataset from Kaggle. The orginal dataset contained 3 million used cars,
 through the applcation, I adopt a standard process in industry for data projects called
 CRISP-DM.
-![image](https://github.com/Sandysmile/Alpine-Blossom/assets/20648423/910e0bf8-44ca-4546-997e-395bc635b073)
+![image](https://github.com/Sandysmile/Alpine-Blossom/assets/CRISP Model.png)
 
 
 
