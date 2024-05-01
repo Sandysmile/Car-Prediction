@@ -130,7 +130,7 @@ and implement dynamic pricing strategies to maximize profitability.
 
    3.1 Number of Cylinders and Price
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CylinderswithPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cylinderswith20%Price.png)
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarconditionwithPrice.png)
    
