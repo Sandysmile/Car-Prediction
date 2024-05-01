@@ -24,9 +24,11 @@ Key features such as the manufacturer brand, year, odometer, model, and car cond
 ## How? 
 Insights from predictive models enable car dealerships to tailor inventory and marketing strategies to buyer preferences, enhancing business outcomes by aligning offerings, optiizing sales, and increasing profitability.
 
+## Goal
+1. To find the best model to predict the price of cars 
+2. to presant the features that most influence price to car dealer
+3. 
 
-Find the features(phi) that most influence price.
-To find the best model to predict the price of vehicles.
 
 
 Feature Missing Values Chart with Report Profiling image
