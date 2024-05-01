@@ -54,10 +54,25 @@ Data Understanding
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
   
+  Please Note:
+  30% of VIN numbers are missing. which points to potential issues in data capture, data quality, or the application of privacy filters. This significant gap necessitates extensive data cleanup or imputation, 
+  which could potentially skew the insights derived from predictive models
 
+  Over 70% of Size variable values are missing. Drop the Size varible for sure. 
+  
 2. High Cardinality
    
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png) 
+
+
+3. Imbalance in Categoircal Values
+   For Example
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
+  
+7. Incorrect Feature Type - Cylinder Numbers
+8. Remove Zero Pricing Issue
+9. Remove Numerical Outliers
+10. Distribution Skewness 
   
    
 Numerical
