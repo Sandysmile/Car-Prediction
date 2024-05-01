@@ -296,14 +296,18 @@ I found that manufactuer, year, odometer, fuel, drive of  the vehicle largely de
 Specifically, the analysis have the following business applicaiton
 
 1. Model Performance: Polynomial features significantly enhance model accuracy. Log transformations improve data distribution for more reliable predictions.
+
    Non-log
+   
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/e4257d5c-5b11-40e3-a182-c65c9ed914ad)
   	
    Log
-  ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0ef11468-0c70-416f-b63f-72839a6c41f8)
+   
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0ef11468-0c70-416f-b63f-72839a6c41f8)
   	
 
-2. Key Influencers: Manufacturer, year, vehicle type, odometer, and drive are pivotal in pricing.
+3. Key Influencers: Manufacturer, year, vehicle type, odometer, and drive are pivotal in pricing.
+   
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/000a9faa-9db0-43fd-8874-e11d8222f976)
   	
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/6f372231-d930-472a-9b68-82a5e9d5fc05) 
@@ -311,18 +315,21 @@ Specifically, the analysis have the following business applicaiton
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/309e17a5-3ba3-48c2-900d-7972bd427fe1) 
    
    
-3. Inventory Trends: Trucks and pickups maintain premium market positioning. while Toyota and sedon  
+4. Inventory Trends: Trucks and pickups maintain premium market positioning. while Toyota and sedon
+     
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a69b221e-462b-4020-a44b-bd9c337e9275)
   	
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/413c55a5-f624-40cd-8792-a7901739006f)
   	
   	
   	
-4. Consumer Preferences: High-end vehicles are favored over popular lower-end models.
+5. Consumer Preferences: High-end vehicles are favored over popular lower-end models.
+
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ab0ec3aa-b730-49e5-ac67-987e98537dbf)
 
 
-5. Risk Management: Newer American vehicles with four-wheel drive are less risky. Japanese and Korean brands are preferred for their value retention in the secondary market.
+6. Risk Management: Newer American vehicles with four-wheel drive are less risky.
+7. Japanese and Korean brands are preferred for their value retention in the secondary market.
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0f1d6b50-8325-443c-a6fa-cd365abd02fe) 
     
    Surprisingly, car conditions and the number of cylinders have shown to be insignificant factors in the dataset. Is it largely because the condition of the car positively correlates with its year and negatively with the odometer readings? Additionally, the 
@@ -332,8 +339,13 @@ Specifically, the analysis have the following business applicaiton
 # Next Step
 
 1.	Data Collection and Cleaning: Reduced the dataset from 400,000 to less than 200,000 records by eliminating extensive missing values to enhance model performance.
-2.	Feature Removal: This might cause the model overfitting issue. More business research could help. 
+   
+2.	Feature Removal: This might cause the model overfitting issue. More business research could help.
+   
 3.	Market Demand and Economic Factors: Plans to integrate market demand and economic data aim to refine valuations by including demand-supply dynamics.
+   
 4.	Computational Limitations: Limited computational resources curtailed extensive model testing; utilized Lasso and polynomial features.
-5.	Feature Selection and Model Expansion: The initial categorization of cars into five price groups underperformed; future models will focus on granular feature selection and robust data sources to boost accuracy
+   
+5.	Feature Selection and Model Expansion: The initial categorization of cars into five price groups underperformed; future models will focus on granular feature selection and robust data sources to boost accuracy.
+   
 
