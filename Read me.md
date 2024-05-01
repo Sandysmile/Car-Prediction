@@ -41,15 +41,16 @@ Data Understanding
 # Data Quality Check 
 
 1. Check Missing Values in Three Ways
-  Percentage of Missing Values for Each Variable
+   
+  1.1 Percentage of Missing Values for Each Variable
 
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/MissingValues.png). 
 
-  Density of Missing Values across different variables (Panda Profiling Analysis)
+  1.2 Density of Missing Values across different variables (Panda Profiling Analysis)
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissing%20Values.png). 
 
-  Nulllity Correlations among varibles (Panda Profiling Analysis)
+  1.3 Nulllity Correlations among varibles (Panda Profiling Analysis)
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
   
