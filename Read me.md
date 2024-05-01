@@ -67,7 +67,8 @@ Data Understanding
 
 3. Imbalance in Categoircal Values
    
-   Take Fuel For Example
+Take Fuel For Example 
+
 ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
   
 7. Incorrect Feature Type - Cylinder Numbers
