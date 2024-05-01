@@ -186,7 +186,7 @@ and implement dynamic pricing strategies to maximize profitability.
    
 
 
-# Modeling
+# Modeling/Evaluation
 
 Pre-Modelling Work
   3.1 Spliting Data (80% of Train Data, 20% as Test Data)
@@ -202,35 +202,31 @@ Pre-Modelling Work
 Modelling Techniques:
 
 Using GridSearch to Search the Best Model and Try both price and logged price as the Target varible. 
+Validation Methods: K-fold and holdout methods
 
 1) Linear Regression with Polynomial
-![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84)
+   
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84) 
 
+Best Polynomial Degree: 4 
+Best Mean Squared Error: 28490846.06812954 
 
-
-Best Polynomial Degree: 4
-Best Mean Squared Error: 28490846.06812954
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/4a495b02-3e6a-4d3e-ad3d-716c70a7f4df) 
 
+Logged Target Variable 
 
-
-Logged Target Variable
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/34b5fb11-ccf2-457f-87ae-66382596220e) 
-
-
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/5c54543c-210c-45aa-9b64-e8738a10a899) 
 
+R-squared for Training Data: 0.7823 
+R-squared for Testing Data: 0.7805 
 
-
-R-squared for Training Data: 0.7823
-R-squared for Testing Data: 0.7805
 
 2) Ridge
-![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/f9b503f5-56ee-4060-a506-a5a34bead505)
-
-
+   
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/f9b503f5-56ee-4060-a506-a5a34bead505) 
 
 MAE: Training= 3339.4714, Test= 3339.4714 
 MSE: Training= 34936293.0479, Test= 34570674.9742 
@@ -238,68 +234,52 @@ Optimal alpha: 8.286
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b5832905-3602-4369-946e-61b8bb0987fb) 
 
-
-
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a4693e10-b183-4fe7-ac77-34a6491188de) 
-
-
 
 R-squared for Training Data: 0.7670 
 R-squared for Testing Data: 0.7646 
 
-
-4) Ridge with Polynomial
-![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/9b859b04-c2ef-4209-b582-d1a4d473c7e3)
-
-
+3) Ridge with Polynomial
+   
+![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/9b859b04-c2ef-4209-b582-d1a4d473c7e3) 
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/fca90dc1-0a33-451a-83dd-9f742f70b340) 
-
-
 
 Best Alpha: 0.00042919342601287783
 Best Polynomial Degree: 2
 Training MAE: 4343.966853167321
 Training MSE: 34043273.72143958
 Test MAE: 4325.153891514682
-Test MSE: 33782508.83641666
+Test MSE: 33782508.83641666 
 
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/99290015-8020-4b1c-88af-ffd94e37c58c) 
 
+Best Alpha: 0.49417133613238384 
+Training MAE: 0.23050398477538958 
+Training MSE: 0.09573746155009595 
+Test MAE: 0.2321125678283298 
+Test MSE: 0.09641483333824302 
 
 
-Best Alpha: 0.49417133613238384
-Training MAE: 0.23050398477538958
-Training MSE: 0.09573746155009595
-Test MAE: 0.2321125678283298
-Test MSE: 0.09641483333824302
-
-Logged Price Targeted Varibles
+Logged Price Targeted Varibles 
 R-squared for Training Data: 0.8145
-R-squared for Testing Data: 0.8128
+R-squared for Testing Data: 0.8128 
 
 Both Simple and Folded Validation Techniques are Used. 
 
 
+# Evaluation Summary
 
-# Evaluation
+1. Logged Target Varibles Moedl Alreays Performance better than non-logged price varibales.
+2. Visual Plots: Residuals QQ Plots and Actual and Pedicted Plots
+3. Statistic Measures: MSE and R2
+4. My best model so far is: Ridge with Polynomial with Logged Price Target Varibles. 
 
-Logged Target Varibles Moedl Alreays Performance better than non-logged price varibales.
-
-Visual Plots: Residuals QQ Plots and Actual and Pedicted Plots
-Statistic Measures: MSE and R2 
-and Residuals and Actual and Predicted Plots as I am more interested in penalizing large errors in my model in order for my metric to reflect the true accuracy of my model. For this search I tried using a logarithmic and non-logarithmic target variable and obtained the following results:
-
-But I do have hesitations on if I overfitted the model.
+Howver, I do have a little suspiction that i might overfit the model due to large quantity of null valuable removel and feature, especially model feature removal. 
 
 
-
-My best model so far is:
-Ridge with Polynomial with Logged Price Target Varibles. 
-
-
-Understand the coefficent, and importance Feature analysis 
+# Model Coefficents and Feature Importance
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1cb9bcbe-7e66-4ed3-af4e-c53d5c988182) 
 
@@ -310,48 +290,50 @@ Understand the coefficent, and importance Feature analysis
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1aefdce5-67ac-4760-ad5d-7dca60659597) 
 
 
-Business deploy
-I found that manufactuer, year, odometer, fuel, drive of  the vehicle largely decide a car's price, while the color, # of cylinders and condition are irrelevent.
+## Business Applications
 
+I found that manufactuer, year, odometer, fuel, drive of  the vehicle largely decide a car's price, while the color, # of cylinders and condition are irrelevent.
 Specifically, the analysis have the following business applicaiton
 
-1.	Model Performance: Polynomial features significantly enhance model accuracy. Log transformations improve data distribution for more reliable predictions.
+1. Model Performance: Polynomial features significantly enhance model accuracy. Log transformations improve data distribution for more reliable predictions.
    Non-log
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/e4257d5c-5b11-40e3-a182-c65c9ed914ad)
   	
-  	Log
-  	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0ef11468-0c70-416f-b63f-72839a6c41f8)
+   Log
+  ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0ef11468-0c70-416f-b63f-72839a6c41f8)
   	
 
-
-3.	Key Influencers: Manufacturer, year, vehicle type, odometer, and drive are pivotal in pricing.
+2. Key Influencers: Manufacturer, year, vehicle type, odometer, and drive are pivotal in pricing.
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/000a9faa-9db0-43fd-8874-e11d8222f976)
-  	
   	
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/6f372231-d930-472a-9b68-82a5e9d5fc05) 
 
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/309e17a5-3ba3-48c2-900d-7972bd427fe1) 
    
    
-5.	Inventory Trends: Trucks and pickups maintain premium market positioning. while Toyota and sedon  
+3. Inventory Trends: Trucks and pickups maintain premium market positioning. while Toyota and sedon  
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a69b221e-462b-4020-a44b-bd9c337e9275)
   	
-  	
-  	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/413c55a5-f624-40cd-8792-a7901739006f)
-  	
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/413c55a5-f624-40cd-8792-a7901739006f)
   	
   	
-7.	Consumer Preferences: High-end vehicles are favored over popular lower-end models.
-	![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ab0ec3aa-b730-49e5-ac67-987e98537dbf)
-
-  
+  	
+4. Consumer Preferences: High-end vehicles are favored over popular lower-end models.
+   ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/ab0ec3aa-b730-49e5-ac67-987e98537dbf)
 
 
-9.	Risk Management: Newer American vehicles with four-wheel drive are less risky. Japanese and Korean brands are preferred for their value retention in the secondary market.
+5. Risk Management: Newer American vehicles with four-wheel drive are less risky. Japanese and Korean brands are preferred for their value retention in the secondary market.
    ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/0f1d6b50-8325-443c-a6fa-cd365abd02fe) 
     
-11.	Surprisingly, car conditions and the number of cylinders have shown to be insignificant factors in the dataset. Is it largely because the condition of the car positively correlates with its year and negatively with the odometer readings? Additionally, the 
+   Surprisingly, car conditions and the number of cylinders have shown to be insignificant factors in the dataset. Is it largely because the condition of the car positively correlates with its year and negatively with the odometer readings? Additionally, the 
    imputation of a significant portion of missing data (over 34%) for cylinders and car condition may explain their limited significance to some extent
 
 
+# Next Step
+
+1.	Data Collection and Cleaning: Reduced the dataset from 400,000 to less than 200,000 records by eliminating extensive missing values to enhance model performance.
+2.	Feature Removal: This might cause the model overfitting issue. More business research could help. 
+3.	Market Demand and Economic Factors: Plans to integrate market demand and economic data aim to refine valuations by including demand-supply dynamics.
+4.	Computational Limitations: Limited computational resources curtailed extensive model testing; utilized Lasso and polynomial features.
+5.	Feature Selection and Model Expansion: The initial categorization of cars into five price groups underperformed; future models will focus on granular feature selection and robust data sources to boost accuracy
 
