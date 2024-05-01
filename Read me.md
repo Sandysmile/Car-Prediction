@@ -1,40 +1,45 @@
 # What Drive the Price of a Car?
 
-Overveiw: 
+Introduction 
 
-In the application, I explored a car dataset from Kaggle. The orginal dataset contained 3 million used cars,
-through the applcation, I adopt a standard process in industry for data projects called
-CRISP-DM. 
+In my project, I analyzed a dataset comprising 3 million used cars sourced from Kaggle. 
+Throughout the project, I employed the industry-standard CRISP-DM process (see below) for machine learning and data mining. 
 
 ![CRISP Model](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/CRISP%20Model.png)
 
 
-Data: See the vehicles.zip file updated in the repository
+DATA: Refer to the vehicles.zip file available in the repository 
 
-Notebook: see the notebook file in the repository
+Outline: Project Summary available in the repository
 
-Project Summary link: 
+Detailed Analysis: Please refer to the Jupyter Notebook provided here
+
 
 # Business Understanding/Goals
 
-## Why? 
-Car prices are determined by crucial car specifications such as cylinder count, fuel type, drive type, model, and manufacturer brands, complemented by aesthetic factors like paint colors. It also encompasses indicators of car condition and transferability such as the general condition, year, and odometer reading, and title status.
+Objective:
+Develop a machine learning model to accurately predict used car prices.
 
-## What? 
-Key features such as the manufacturer brand, year, odometer, model, and car condition are provided by the dataset to be significant predictors of a car's market price. These features largely capture the mechanical state and desirability of a car. 
+Data Features: 
+It includes many predictors like manufacturer brand, model year, odometer readings, and condition to help estimate market prices.
 
-## How? 
-Insights from predictive models enable car dealerships to tailor inventory and marketing strategies to buyer preferences, enhancing business outcomes by aligning offerings, optiizing sales, and increasing profitability.
+Business Rationale: 
+Car specifications, aesthetic factors, and condition indicators determine market prices, affecting their desirability and value.
+Application: Enables car dealerships to optimize inventory and marketing strategies based on insights from the model, enhancing sales and profitability.
 
-## Goal
-1. To find the best model to predict the price of cars 
-2. to presant the features that most influence price to car dealer
+Goals: 
 
+1. Identify the most effective model for price prediction.
+2. Present key features that significantly impact car prices to enhance dealership decision-making.
 
+Business Outcome: 
+This analysis will help understand buyer preferences, manage car inventory risk and quality, enable targeted market segmentation,
+and implement dynamic pricing strategies to maximize profitability. 
 
-Data Understanding
+   
+# Data Understanding
 
-# Data Structure 
+## Data Structure 
 
  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png).
  
