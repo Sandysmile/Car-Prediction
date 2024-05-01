@@ -126,27 +126,12 @@ and implement dynamic pricing strategies to maximize profitability.
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
 
    
-4. Final Cleaned Data Overview and Plots
-
-5.     
+4. Final Cleaned Data Overview and Plots for Insights
+   
+   
   
    
-Numerical
 
-Categorical 
-
-Categorical to Numerical
-
-Target Variable Price
-
-
-Data Preparation
-
-Remove Outliers
-
-Correlations 
-
-Prices with years, type, highlighted analysis
 
 Modeling (4) 
 
