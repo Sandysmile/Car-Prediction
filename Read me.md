@@ -7,6 +7,7 @@ through the applcation, I adopt a standard process in industry for data projects
 CRISP-DM.
 
 
+
 Data: See the vehicles.zip file updated in the repository
 
 Notebook: see the notebook file in the repository
@@ -27,10 +28,9 @@ Insights from predictive models enable car dealerships to tailor inventory and m
 ## Goal
 1. To find the best model to predict the price of cars 
 2. to presant the features that most influence price to car dealer
-3. 
 
 
-
+# 
 Feature Missing Values Chart with Report Profiling image
 
 Numerical
