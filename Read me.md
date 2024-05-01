@@ -153,7 +153,7 @@ and implement dynamic pricing strategies to maximize profitability.
 
    3.6 Counts and Median Prices by Manufacturer Group
 
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerwithMedianPrice.png)
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ManufacturerGroupwithMedianPrice.png)
 
    3.7 Counts and Median Prices by PaintColor
    
