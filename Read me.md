@@ -125,8 +125,13 @@ and implement dynamic pricing strategies to maximize profitability.
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
 
+
+   2.8. Correlation among Numerical Variables
+
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Correlations.png)
    
-3. Final Cleaned Data Overview and Selected Plots for Insights
+   
+4. Final Cleaned Data Overview and Selected Plots for Business Insights
 
    3.1 Number of Cylinders Distribution (Before Imputation)
 
@@ -158,6 +163,7 @@ and implement dynamic pricing strategies to maximize profitability.
    3.7 Counts and Median Prices by PaintColor
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PaintColorwithMedianPrice.png)
+
 
    
   
