@@ -94,21 +94,30 @@ and implement dynamic pricing strategies to maximize profitability.
 
    2.4 Car Condition Can be coded into as a Ordinarical Numberic feature
 
-   2.5 Remove Zero Pricing Cars and Cars with Savaged and other abnormal car
-   Conditions   
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car- Prediction/main/Image/PriceOutlier.png)
+   2.5 Remove Zero Pricing Cars and Cars with Savaged and other abnormal car Conditions
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png)
    
-    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png)
-    
-   2.6 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
+      
+  
+   2.6 drop all missing values from drive, type, and paint_color
+   
+   The model's performance is very bad after coding all missing values as 'unknown'.
+   So I decided to drop all missing values from 'drive', 'type', and 'paint_color'
+
+   2.7 Only cylinder_numeric and condition_numeric have missing values now.
+   Their missing values will be imputated using their median values after splitting the dataset into train and test dataset to avoid data leakage.
+   
+   2.8 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
 
    2.7. Log price to improve central tendency
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
    
-   
-    
+3. Final Cleaned Data Overview and Plots
+
+4.     
   
    
 Numerical
