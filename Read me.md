@@ -6,7 +6,7 @@ In the application, I explored a car dataset from Kaggle. The orginal dataset co
 through the applcation, I adopt a standard process in industry for data projects called
 CRISP-DM. 
 
-![CRISP](https://Images/CRISP Model.png)
+![image](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/assets/CRISP.png)
 
 
 
