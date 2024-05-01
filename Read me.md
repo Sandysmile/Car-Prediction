@@ -13,12 +13,12 @@ Notebook: see the notebook file in the repository
 
 Project Summary link: 
 
-# Business Understanding/Goals
+## Business Understanding/Goals
 
-# Why? 
+## Why? 
 Car prices are determined by crucial car specifications such as cylinder count, fuel type, drive type, model, and manufacturer brands, complemented by aesthetic factors like paint colors. It also encompasses indicators of car condition and transferability such as the general condition, year, and odometer reading, and title status.
 
-# What? 
+## What? 
 Key features such as the manufacturer brand, year, odometer, model, and car condition are provided by the dataset to be significant predictors of a car's market price. These features largely capture the mechanical state and desirability of a car. 
 
 # How? 
