@@ -2,7 +2,7 @@
 
 Introduction 
 
-In my project, I analyzed a dataset comprising 3 million used cars sourced from Kaggle. 
+In the project, I analyzed a dataset comprising 3 million used cars sourced from Kaggle. 
 Throughout the project, I employed the industry-standard CRISP-DM process (see below) for machine learning and data mining. 
 
 ![CRISP Model](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/CRISP%20Model.png)
