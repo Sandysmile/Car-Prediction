@@ -34,7 +34,7 @@ Insights from predictive models enable car dealerships to tailor inventory and m
 
 Data Overview:
 
- ![CRISP Model](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png.
+ ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png).
  
 Feature Missing Values Chart with Report Profiling image
 
