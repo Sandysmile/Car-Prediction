@@ -13,6 +13,7 @@ DATA: Refer to the vehicles.zip file available in the repository
 Outline: Project Summary available in the repository
 
 Detailed Analysis: Please refer to the Jupyter Notebook provided here
+Panda Profile Output: 
 
 
 # Business Understanding/Goals
@@ -41,17 +42,17 @@ and implement dynamic pricing strategies to maximize profitability.
 
 ## Data Structure 
 
- ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png).
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Data%20Structure.png).
  
 # Data Quality Check 
 
-1. Check Missing Values in Three Ways
+1.Check Missing Values in Three Ways
    
-  1.1 Percentage of Missing Values for Each Variable
+  1.1 Percentage of Missing Values for Each Variable Statistics
 
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/MissingValues.png). 
 
-  1.2 Density of Missing Values across different variables (Panda Profiling Analysis)
+  1.2 Density of Missing Values Comparision (Panda Profiling Analysis)
   
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissing%20Values.png). 
 
