@@ -67,14 +67,28 @@ Data Understanding
 
 3. Imbalance in Categoircal Values
    
-Take Fuel For Example 
+Take Fuel and Car Condition For Example 
 
 ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Imbalance.png) 
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/CarCondition.png) 
   
-7. Incorrect Feature Type - Cylinder Numbers
-8. Remove Zero Pricing Issue
-9. Remove Numerical Outliers
-10. Distribution Skewness 
+7. Incorrect Feature Type - Convert Cylinder Into Numerical Varible
+8. Code Car Condition into Ordinary Numbers 
+
+
+9. Remove Zero Pricing Cars and Cars with Savaged Conditions
+    
+ ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PriceOutlier.png) 
+ ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/BoxplotPrices.png) 
+ 
+
+11. Remove Numerical Outliers Using Quantile Approach
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScrewedness.png)
+
+    
+
+
+13. Distribution Skewness 
   
    
 Numerical
