@@ -40,12 +40,14 @@ Data Understanding
  
 # Data Quality Check 
 
-1. Check Missing Values
-
+1. Check Missing Values:
+  Percentage of Missing Values for Each Variable
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/MissingValues.png). 
-  
-  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissingValues.png). 
-  
+
+  Density of Missing Values across different variables
+  ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/ProfilingMissing%20Values.png). 
+
+  Nulllity Correlations among varaibles
   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/NullityCorrelation.png). 
   
 3. 
