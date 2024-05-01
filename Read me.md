@@ -207,17 +207,21 @@ Using GridSearch to Search the Best Model and Try both price and logged price as
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b9aba626-0ba9-449f-a472-35d77f43ea84)
 
 
+
 Best Polynomial Degree: 4
 Best Mean Squared Error: 28490846.06812954
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/4a495b02-3e6a-4d3e-ad3d-716c70a7f4df) 
 
 
+
 Logged Target Variable
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/34b5fb11-ccf2-457f-87ae-66382596220e) 
 
 
+
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/5c54543c-210c-45aa-9b64-e8738a10a899) 
+
 
 
 R-squared for Training Data: 0.7823
@@ -227,6 +231,7 @@ R-squared for Testing Data: 0.7805
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/f9b503f5-56ee-4060-a506-a5a34bead505)
 
 
+
 MAE: Training= 3339.4714, Test= 3339.4714 
 MSE: Training= 34936293.0479, Test= 34570674.9742 
 Optimal alpha: 8.286 
@@ -234,7 +239,9 @@ Optimal alpha: 8.286
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/b5832905-3602-4369-946e-61b8bb0987fb) 
 
 
+
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/a4693e10-b183-4fe7-ac77-34a6491188de) 
+
 
 
 R-squared for Training Data: 0.7670 
@@ -245,7 +252,9 @@ R-squared for Testing Data: 0.7646
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/9b859b04-c2ef-4209-b582-d1a4d473c7e3)
 
 
+
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/fca90dc1-0a33-451a-83dd-9f742f70b340) 
+
 
 
 Best Alpha: 0.00042919342601287783
@@ -257,6 +266,7 @@ Test MSE: 33782508.83641666
 
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/99290015-8020-4b1c-88af-ffd94e37c58c) 
+
 
 
 Best Alpha: 0.49417133613238384
@@ -298,6 +308,7 @@ Understand the coefficent, and importance Feature analysis
 
 
 ![image](https://github.com/Sandysmile/Car-Prediction/assets/20648423/1aefdce5-67ac-4760-ad5d-7dca60659597) 
+
 
 
 In the search for weights for each of the characteristics I found that the year, model, odometer, transmission and cylinders of the vehicle have a very large influence on the prediction of the values, while the color, size and condition are not so decisive when calculating the price of the vehicles. In addition, we can see that the coefficients of a model with one of the best scores (Ridge with Polynomial) have marked extremes where the year and model and the combination of year-odometer and year-cylinders predominate, giving us an indication of the weight that these characteristics have at the time of predicting the price.
