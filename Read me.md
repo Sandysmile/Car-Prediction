@@ -10,9 +10,10 @@ Throughout the project, I employed the industry-standard CRISP-DM process (see b
 
 DATA: Refer to the vehicles.zip file available in the repository 
 
-Outline: Project Summary available in the repository
+Outline: Project Summary available in the repository 
+https://github.com/Sandysmile/Car-Prediction/blob/main/Project%20Outline.pdf 
 
-Detailed Analysis: Please refer to the Jupyter Notebook provided here https://github.com/Sandysmile/Car-Prediction/blob/main/Project%20Outline.pdf 
+Detailed Analysis: Please refer to the Jupyter Notebook provided here  
 
 Panda Profiling Analysis: https://github.com/Sandysmile/Car-Prediction/blob/main/output.html 
 
