@@ -82,6 +82,7 @@ and implement dynamic pricing strategies to maximize profitability.
 2. Inital EDA Insights Including Profiling Analysis or Data Preparation Actions
    
    2.1 High Cardinality - Regroup Key Relevent Feature Such as Manufacturer
+   
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/Cardinality.png)
     
    2.2 Imbalance in Categoircal Values
