@@ -111,13 +111,23 @@ and implement dynamic pricing strategies to maximize profitability.
    2.8 Remove Numerical Outliers Using Quantile Approach to avoid the extreme skewedness.
    
    ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/yeardistribution.png)
+
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/YearswithCurve.png)
+   
+
 
    2.7. Log price to improve central tendency
-   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
    
-3. Final Cleaned Data Overview and Plots
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedPrice.png)
+   
+   ![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/LoggedpricewithCurve.png)
 
-4.     
+   
+4. Final Cleaned Data Overview and Plots
+
+5.     
   
    
 Numerical
