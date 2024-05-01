@@ -83,7 +83,7 @@ Take Fuel and Car Condition For Example
  
 
 11. Remove Numerical Outliers Using Quantile Approach
-![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScrewedness.png)
+![data overview](https://raw.githubusercontent.com/Sandysmile/Car-Prediction/main/Image/PricesScewedness.png)
 
     
 
