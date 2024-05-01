@@ -13,8 +13,7 @@ DATA: Refer to the vehicles.zip file available in the repository
 Outline: Project Summary available in the repository
 
 Detailed Analysis: Please refer to the Jupyter Notebook provided here
-Panda Profile Output: 
-
+Panda Profile Output: https://github.com/Sandysmile/Car-Prediction/blob/main/output.html 
 
 # Business Understanding/Goals
 
