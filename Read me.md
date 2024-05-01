@@ -5,7 +5,7 @@ Overveiw:
 In the application, I explored a car dataset from Kaggle. The orginal dataset contained 3 million used cars,
 through the applcation, I adopt a standard process in industry for data projects called
 CRISP-DM.
-<img src="/repository/assets/employee.png" alt="Employee data" title="Employee Data title">
+<img src="[/Car-Prediction/blob/main/CRISP%20Model.png)title="CRISP-DM">
 
 
 
